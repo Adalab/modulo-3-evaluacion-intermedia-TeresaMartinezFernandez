@@ -11,7 +11,11 @@ const Pokemon = (props) => {
   });
   return (
     <article className="cardPokemon">
-      <img src={props.pokemon.url} alt={props.pokemon.name}></img>
+      <img
+        src={props.pokemon.url}
+        alt={props.pokemon.name}
+        title="imagen de pokemon"
+      ></img>
       <h2 className="namePokemon">{props.pokemon.name}</h2>
       <ul className="propertyList">{itemTypes}</ul>
     </article>
