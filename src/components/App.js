@@ -1,6 +1,7 @@
 import React from "react";
 import PokeList from "./PokeList";
 import pokemons from "../data/data.json";
+import "../stylesheets/App.css";
 
 class App extends React.Component {
   render() {
