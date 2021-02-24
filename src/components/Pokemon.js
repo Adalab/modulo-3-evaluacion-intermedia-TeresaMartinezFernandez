@@ -13,7 +13,7 @@ const Pokemon = (props) => {
     <article className="cardPokemon">
       <img src={props.pokemon.url} alt={props.pokemon.name}></img>
       <h2 className="namePokemon">{props.pokemon.name}</h2>
-      <ul>{itemTypes}</ul>
+      <ul className="propertyList">{itemTypes}</ul>
     </article>
   );
 };
